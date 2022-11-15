@@ -90,3 +90,16 @@ footer a:hover{
 	cursor: pointer;
 	text-decoration: underline;
 }
+
+@media (max-width: 460px){
+	header{
+		flex-direction: column;
+		min-height: 80px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	nav{
+		margin-top: 1em;
+	}
+}
