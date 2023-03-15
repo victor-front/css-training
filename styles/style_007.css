@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	font-family: Georgia, Times New Roman, sans-serif;
+}
+
+body{
+	background-color: #444;
+}
+
+#container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ddd;
+	min-height: 200px;
+	width: 400px;
+	border-radius: 10px 10px 3px 3px;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px #222;
+}
+
+#people{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+#header{
+	height: 60px;
+	background-image: linear-gradient(#444, #222);
+	border-radius: 10px 10px 0px 0px;
+}
+
+#pfp-nick{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+}
+
+#nick{
+	font-size: 1.5em;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+#pfp{
+	width: 80px;
+	border-radius: 3px;
+}
+
+#desc{
+	font-size: 1em;
+}
